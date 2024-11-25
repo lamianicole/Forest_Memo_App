@@ -1,4 +1,4 @@
-# 🦔 Forest Memo Game 🪵#
+# 🦔 Forest Memo Game 🪵
 ## Overview ##
 Forest Memo Game - a fun and kid-friendly memory game where the player have to find pairs of forest related emoji cards. The goal is to find all matches as quickly as possible.
 
@@ -6,9 +6,9 @@ Forest Memo Game - a fun and kid-friendly memory game where the player have to f
 - Random Shuffle: Every time the game restarts, the cards are shuffled randomly.
 - Show Scores: They show the number of pairs guessed and the number of attempts.
 - Responsive Design: It adapts to different screen sizes so the game looks good on all devices.
-- Calm Design: nature-related background and kid-friendly emojis.
+- Calm Design: Nature-related background and kid-friendly emojis.
 
-## Installation and use ##
+## Installation and Use ##
 ### Requirements ###
 A web browser (e.g. Chrome, Firefox, Safari)
 
