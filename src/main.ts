@@ -10,7 +10,7 @@ const emojiArr: string[] = ['🌳', '🪵', '🦔', '🐾', '🌰', '🦉', '�
 //* --------------- Declaring control variables ---------------
 let cardsToCompare: HTMLDivElement[] = [];
 let guessCounter: number = 0;
-let pairsClicledCounter: number = 0;
+let pairsClickedCounter: number = 0;
 let pairsGuessedCounter: number = 0;
 
 //* --------------- Mixing the emojis ---------------
@@ -44,7 +44,7 @@ function displayScoreboard(pairGuessed: boolean): void {
             scoreboard.style.alignItems = 'center';
             scoreboard.innerHTML = `
             <h3>Congratulations, you won!</h3>
-            <p>Attempts: ${pairsClicledCounter}</p>
+            <p>Attempts: ${pairsClickedCounter}</p>
             `;
             const button = document.createElement('button') as HTMLButtonElement;
             button.textContent = 'Play again!';
@@ -53,9 +53,9 @@ function displayScoreboard(pairGuessed: boolean): void {
             scoreboard.appendChild(button);
         }
     } else {
-        pairsClicledCounter++;
+        pairsClickedCounter++;
     }
-    pairsClicked.textContent = `Pairs clicked: ${pairsClicledCounter}`;
+    pairsClicked.textContent = `Pairs clicked: ${pairsClickedCounter}`;
     pairsGuessed.textContent = `Pairs guessed: ${pairsGuessedCounter}`;
 }
 
