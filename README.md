@@ -26,4 +26,5 @@ Monitor your progress with the saved games displayed.
 - TypeScript: TypeScript that implements the game's logic, including card shuffling and event control.
 
 ## Preview ##
+Link: https://forest-memo-game.netlify.app/
 ![screenshot](./public/assets/img/screenshot-forest-memo.png)
