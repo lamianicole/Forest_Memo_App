@@ -26,4 +26,4 @@ Monitor your progress with the saved games displayed.
 - TypeScript: TypeScript that implements the game's logic, including card shuffling and event control.
 
 ## Preview ##
-![screenshot](./src/assets/img/screenshot-forest-memo.png)
+![screenshot](./public/assets/img/screenshot-forest-memo.png)
