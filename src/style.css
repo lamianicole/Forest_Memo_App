@@ -1,6 +1,6 @@
 @font-face {
   font-family: "AmaticSC-Regular";
-  src: url("src/assets/fonts/AmaticSC-Regular.ttf");
+  src: url("/fonts/AmaticSC-Regular.ttf");
 }
 
 body {
@@ -9,7 +9,7 @@ body {
   min-width: 320px;
   min-height: 100vh;
   font-family: "AmaticSC-Regular";
-  background-image: url("src/assets/img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
+  background-image: url("/img/sebastian-unrau-sp-p7uuT0tw-unsplash.jpg");
   background-size: cover; background-position: center; background-repeat: no-repeat;
 }
 
@@ -64,7 +64,7 @@ h1 {
   border: 2px solid #000;
   border-radius: 30px; 
   padding: 20px;
-  background-image: url("src/assets/img/IMG_2224_wooden-desk.jpeg");
+  background-image: url("/img/IMG_2224_wooden-desk.jpeg");
   background-size: cover; background-position: center; background-repeat: no-repeat;
   box-shadow: 0 0 10px 5px rgba(17, 16, 16, 0.5);
 }
